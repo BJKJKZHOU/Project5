@@ -1,9 +1,6 @@
-#include<stdio.h>
+#include"practice1-12.h"
+
 int main()
 {
-    int c;
-    c = getchar();
-    printf("%d", c);
-    return 0;
-
+    practice();
 }
