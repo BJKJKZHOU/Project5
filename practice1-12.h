@@ -34,7 +34,7 @@ void practice()      //编写一个程序，以每行一个单词的形式打印其输入。
 void diamod()//函数diamond打印一个菱形。num为奇数
 {   
     int num, graph;
-    scanf_s("%d %c",&num,&graph);
+    scanf_s("%d %c",&num,&graph, sizeof(num));
     if (!(num & 1)) {          // &与运算,将num的二进制数最后一位与1,0与1等于0,1与1等于1。判断num是否是偶数。
         printf("wrong\n");   
         return;
